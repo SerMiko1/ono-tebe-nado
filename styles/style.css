@@ -26,16 +26,13 @@ body {
   padding-left: 14.3%;
 }
 
-
 .address__link {
   text-underline-offset: calc(5px);
 }
 
-
 .header__logo {
   width: 135px;
 }
-
 
 .header__menu {
   flex: 0 0 auto;
@@ -64,7 +61,6 @@ body {
   margin-left: auto;
 }
 
-
 .content {
   color: #FFF;
   font-family: 'Raleway';
@@ -79,7 +75,6 @@ body {
     background-position: right center;
     flex-shrink: 0;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
-	  
    }
    .cover_title {
       font-size: 100px;
@@ -137,7 +132,6 @@ body {
       padding-right: 30px;
     }
 
-     
      .lots {
       display: flex;
       height: 579px;
@@ -193,7 +187,7 @@ body {
       z-index: 1;
      }
 
-     .card__title {
+     .card__title  {
       color: #FFF;
       font-size: 22px;
       font-weight: 700;
