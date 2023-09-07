@@ -73,7 +73,7 @@ body {
   .cover {
     width: 1440px;
     height: 757px;
-    background-image: url(../images/cover.jpg);
+    background: center / cover no-repeat url(../images/cover.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: right center;
@@ -96,11 +96,11 @@ body {
      }
      .aligned-text_center {
       text-align: center;
-      margin-left: 503px;
+      margin-left: 505px;
      }
      .aligned-text_right {
       text-align: right;
-      margin-left: 970px;
+      margin-left: 974px;
      }
      .letter-spacing-extended {
       letter-spacing: 60px;
@@ -112,14 +112,15 @@ body {
       align-items: center;
       width: 1340px;
       margin: auto;
-      margin-top: 118px;
+      margin-top: 145px;
       z-index: 1;
     }
     .cover_description-text {
-      width: 633px;              
-      font-size: 22px;
+      width: 710px;           
+      font-size: 113%;
       font-weight: 400;
-      line-height: 28px;
+      line-height: 22px;
+      word-spacing: 15px;
       text-transform: uppercase;
     }
     .button_bet {
@@ -132,7 +133,7 @@ body {
       border: 1px solid #FFF;
       padding-top: 12px;
       padding-bottom: 12px;
-      padding-left: 30px;
+      padding-left: 33px;
       padding-right: 30px;
     }
 
@@ -202,7 +203,7 @@ body {
       z-index: 3;
      }
 
-     .card__text{
+     .card__text {
       color: #FFF;
       font-size: 20px;
       font-weight: 400;
