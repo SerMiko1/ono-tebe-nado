@@ -120,7 +120,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  max-width: 1340px;
+  max-width: 1440px;
   margin: auto;
   margin-top: 130px;
   z-index: 1;
@@ -147,6 +147,7 @@ body {
   padding-bottom: 12px;
   padding-left: 33px;
   padding-right: 30px;
+  margin-right: 50px;
 }
 
 .lots {
@@ -237,18 +238,19 @@ body {
 }
 
 .lots-card-list-item {
-flex-grow: 1;
-width: 430px;
-height: 450px;
+  flex-grow: 1;
+  width: 430px;
+  height: 450px;
 }
 
 .about {
   color: #000;
-  margin: auto;
   max-width: 1340px;
   padding-top: 180px;
   display: flex;
   overflow-x: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .about-logo {
