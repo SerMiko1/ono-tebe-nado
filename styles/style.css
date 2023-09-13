@@ -30,6 +30,7 @@ body {
 
 .address-link {
   text-underline-offset: calc(5px);
+  text-decoration: underline;
 }
 
 .header-logo {
@@ -213,7 +214,6 @@ body {
 }
 
 .card-text, a {
-  color: #fff;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -295,6 +295,7 @@ body {
   display: flex;
   text-align: center;
   text-underline-offset: calc(5px);
+  text-decoration: underline;
 }
 
 .footer-link-list-item {
