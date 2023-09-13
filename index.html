@@ -12,80 +12,74 @@
   <body>
     <header class="header">
       <address class="address">
-        <p class="address__info">
-          <a class="address_link" href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p class="address__info">
-          <a class="address_link" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          >
-        </p>
-        <p class="address__info">наб. Принсенграхт 263-265, Амстердам</p>
+        <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address-info">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
-      <a class="header__logo" href="#">
+      <a class="header-logo" href="#">
         <img
-          class="header__logo-image"
+          class="header-logo-image"
           src="./images/logo-black.svg"
           alt="Черный логотип проекта оно тебе надо"
         />
       </a>
-      <nav class="header__menu">
-        <ul class="header_menu-list">
-          <li class="header_menu-item header_menu-item-active">
-            <a class="header_menu-link">главная</a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item header-menu-item-active">
+            <a class="header-menu-link">главная</a>
           </li>
-          <li class="header_menu-item">
-            <a class="header_menu-link" href="#0">посмотреть лоты</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header_menu-item">
-            <a class="header_menu-link" href="#0">об аукционе</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="content">
       <section class="cover">
-        <h1 class="cover__title">
-          <span class="aligned_text"
-            >о<span class="letter_spacing-extended">но</span></span
+        <h1 class="cover-title">
+          <span class="aligned-text"
+            >о<span class="letter-spacing-extended">но</span></span
           >
-          <span class="aligned_text-center"
-            >те<span class="letter_spacing-extended">бе</span></span
+          <span class="aligned-text-center"
+            >те<span class="letter-spacing-extended">бе</span></span
           >
-          <span class="aligned_text-right"
-            ><span class="letter_spacing-extended">н</span>ад<span
+          <span class="aligned-text-right"
+            ><span class="letter-spacing-extended">н</span>ад<span
               class="no-letter-spacing"
               >о</span
             ></span
           >
         </h1>
-        <div class="cover__description">
-          <p class="cover_description-text">
+        <div class="cover-description">
+          <p class="cover-description-text">
             Аукцион вещей, в которые никто не верил
           </p>
           <button class="button-bet">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots__heading">лоты</h2>
-        <ul class="lots__card-list">
-          <li class="lots__card-list-item">
-            <div class="card card__type-film">
-              <h3 class="card__title">
+        <h2 class="lots-heading">лоты</h2>
+        <ul class="lots-card-list">
+          <li class="lots-card-list-item">
+            <a href="#0" class="card card-type-film">
+              <h3 class="card-title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
-              <p class="card_text">
+              <p class="card-text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                 ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
               </p>
-            </div>
+            </a>
           </li>
-          <li class="lots__card-list-item">
-            <div class="card card__type-book">
-              <h3 class="card__title">
+          <li class="lots-card-list-item">
+            <a href="#" class="card card-type-book">
+              <h3 class="card-title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
-              <p class="card_text">
+              <p class="card-text">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
                 переходами на древнеанглийский. В ней одновременно
                 рассказывается о 16 июня 1904 года и об истории литературы,
@@ -93,42 +87,42 @@
                 поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
                 Джойса?
               </p>
-            </div>
+            </a>
           </li>
-          <li class="lots__card-list-item">
-            <div class="card card__type-picture">
-              <h3 class="card__title">
+          <li class="lots-card-list-item">
+            <a href="#0" class="card card-type-picture">
+              <h3 class="card-title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
-              <p class="card_text">
+              <p class="card-text">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе
                 что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                 котиков… Сколько бы вы на такое поставили, если бы не знали, что
                 это — одна из революционных работ Кандинского?
               </p>
-            </div>
+            </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#0"> посмотреть больше </a>
+        <a class="lots-look-more-link" href="#0"> посмотреть больше </a>
       </section>
       <section class="about">
-        <a class="about__logo">
+        <a class="about-logo">
           <img
-            class="about__logo-image"
+            class="about-logo-image"
             src="./images/logo-white.svg"
             alt="Белый логотип проекта оно тебе надо"
           />
         </a>
-        <div class="about_content-section">
-          <h2 class="about__heading">Об аукционе</h2>
-          <p class="about_text">
+        <div class="about-content-section">
+          <h2 class="about-heading">Об аукционе</h2>
+          <p class="about-text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
           </p>
-          <p class="about_text">
+          <p class="about-text">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
@@ -141,54 +135,46 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <p class="address__info">
-          <a class="address_link" href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-
-        <p class="address__info">
-          <a class="address_link" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          >
-        </p>
-
-        <p class="address__info">наб. Принсенграхт 263-265, Амстердам</p>
+        <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address-info">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
-      <nav class="footer__menu">
-        <ul class="footer_menu-list">
-          <li class="footer_menu-list-item">
-            <a class="footer_menu-link-active">главная</a>
+      <nav class="footer-menu">
+        <ul class="footer-menu-list">
+          <li class="footer-menu-list-item">
+            <a class="footer-menu-link-active">главная</a>
           </li>
-          <li class="footer_link-list-item">
-            <a class="footer_menu-link" href="#0">посмотреть лоты</a>
+          <li class="footer-link-list-item">
+            <a class="footer-menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="footer_link-list-item">
-            <a class="footer_menu-link" href="#0">об аукционе</a>
+          <li class="footer-link-list-item">
+            <a class="footer-menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <ul class="footer_social-list">
-        <li class="footer_social-list-item">
-          <a class="footer_social-link" href="#">
+      <ul class="footer-social-list">
+        <li class="footer-social-list-item">
+          <a class="footer-social-link" href="#">
             <img
-              class="footer_social-icon"
+              class="footer-social-icon"
               src="./images/yt.svg"
               alt="логотип сайта YouTube"
             />
           </a>
         </li>
-        <li class="footer_social-list-item">
+        <li class="footer-social-list-item">
           <a class="footer_social-link" href="#">
             <img
-              class="footer_social-icon"
+              class="footer-social-icon"
               src="./images/vk.svg"
               alt="логотип социальной сети Вконтакте"
             />
           </a>
         </li>
-        <li class="footer_social-list-item">
-          <a class="footer_social-link" href="#">
+        <li class="footer-social-list-item">
+          <a class="footer-social-link" href="#">
             <img
-              class="footer_social-icon"
+              class="footer-social-icon"
               src="./images/pinterest.svg"
               alt="логотип сайта pinterest"
             />
